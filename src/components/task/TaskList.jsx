@@ -15,7 +15,7 @@ export default function TaskList({ tasks,handleDeleteTask,setTasks}) {
   return (
     <div className="h-[490px] overflow-auto">
       {/* Table for larger screens */}
-      <table className="hidden sm:table table-fixed">
+      <table className=" sm:table table-fixed">
         <thead className="dark:bg-[#121A16] bg-slate-700 sticky top-0">
           <tr>
             <th className="p-6 text-sm font-semibold capitalize w-[48px]"></th>
