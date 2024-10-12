@@ -26,7 +26,7 @@ export default function Header({theme,toggleTheme}) {
             <div className="relative w-8 h-8 sm:w-9 sm:h-9">
               {/* Sun Icon (Light Mode) */}
               <svg
-                className={`absolute transition-all duration-500 ease-in-out fill-current text-yellow-500 transform   ${ theme === "dark" ? "opacity-100 rotate-0 scale-100" : "opacity-0 -rotate-180 scale-0"}`}
+                className={`absolute transition-all duration-500 ease-in-out fill-current text-yellow-500 transform   ${ theme === "light" ? "opacity-100 rotate-0 scale-100" : "opacity-0 -rotate-180 scale-0"}`}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >
@@ -35,7 +35,7 @@ export default function Header({theme,toggleTheme}) {
 
               {/* Moon Icon (Dark Mode) */}
               <svg
-                className={`absolute transition-all duration-500 ease-in-out fill-current text-[#15803D] transform opacity-0 rotate-180 scale-0 ${theme === "light" ? "opacity-100 rotate-0 scale-100" : "opacity-0 rotate-180 scale-0"}`}
+                className={`absolute transition-all duration-500 ease-in-out fill-current text-[#15803D] transform opacity-100 rotate-180 scale-0 ${theme === "dark" ? "opacity-100 rotate-0 scale-100" : "opacity-0 rotate-180 scale-0"}`}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >

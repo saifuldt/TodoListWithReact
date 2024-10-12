@@ -5,5 +5,5 @@ export const getTaskFromLocalStorge = ()=>{
 
 export const getThemeFromLocalStorge = ()=>{
     const theme = localStorage.getItem('theme');
-    return theme || 'derk'
+    return theme || 'dark';
 }
