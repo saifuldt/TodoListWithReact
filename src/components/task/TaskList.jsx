@@ -13,7 +13,7 @@ export default function TaskList({ tasks,handleDeleteTask,setTasks}) {
   };
 
   return (
-    <div className="h-[490px] overflow-auto">
+    <div className="h-[490px] w-[400px] md:w-full overflow-auto">
       {/* Table for larger screens */}
       <table className=" sm:table table-fixed">
         <thead className="dark:bg-[#121A16] bg-slate-700 sticky top-0">
