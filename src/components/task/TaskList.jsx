@@ -5,7 +5,9 @@ export default function TaskList({ tasks,handleDeleteTask,setTasks}) {
   const toggleFavorite = (taskId) => {
     const updatedTasks = tasks.map((task) => {
       if (task.id === taskId) {
-        return { ...task, isFavorite: !task.isFavorite };
+        return { 
+          ...task, 
+          isFavorite: !task.isFavorite };
       }
       return task;
     });
